@@ -38,7 +38,8 @@ you should see similar response like:
 
 We can also specify the type of activity in the link: <https://bored.api.lewagon.com/api/activity?type=recreational>.
 
-Should give you response of type `recreational` only:
+Should give you response of type 
+`recreational` only:
 
 ```json
 {
