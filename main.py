@@ -16,7 +16,8 @@ def get_activity(preference=None) -> dict:
     return response.json()
 ########################################################################
 print("Don't know what to do? Pick a number below and I will suggest something for you:  0: education  1: recreational  2: social  3: diy  4: charity  5: cooking  6: relaxation  7: music  8: busywork 9: no preference")
-activity = input()
+activity = int(input())
+resp_dict1 = {}
 
 if activity == 9:
     resp_dict1 = get_activity()
