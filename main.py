@@ -8,6 +8,7 @@ from pprint import pprint
 def get_activity(preference=None) -> dict:
     if preference is None:
         url = "https://bored.api.lewagon.com/api/activity/"
+        url = "https://bored.api.lewagon.com/api/activity/"
     else:
         url = f"https://bored.api.lewagon.com/api/activity?type={preference}"
 
